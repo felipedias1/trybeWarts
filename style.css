@@ -1,0 +1,193 @@
+/* HTML */
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(211, 209, 209);
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+}
+
+.trybewarts-header-logo {
+  display: flex;
+  justify-content: left;
+  width: 50px;
+}
+
+.trybewarts-login {
+  display: flex;
+  justify-content: right;
+}
+
+.trybewarts-login input {
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  font-size: 9px;
+  padding: 8px;
+  margin: 4px;
+}
+
+.trybewarts-login button {
+  width: 100px;
+  height: 25px;
+  color: white;
+  background-color: rgb(78, 44, 131);
+  border-radius: 5px;
+  font-size: 9px;
+  padding: 8px;
+  margin: 4px;
+}
+
+.trybewarts-header-title {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+}
+
+/* FIM DO HEADER */
+
+/* classes do MAIN */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Classe do formulário */
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  padding: 5px;
+  justify-content: left;
+}
+
+hr {
+  border: solid 1px gray;
+  opacity: 50%;
+  max-width: 100%;
+  margin: 5px;
+}
+
+/* Sessão 1 do Formulário */
+.session-one {
+  display: flex;
+  flex-direction: column;
+}
+
+.session-one h2 {
+  align-self: center;
+  padding: 10px;
+
+}
+
+.session-one div {
+  margin: 5px;
+}
+
+#input-name , #input-lastname , #input-email {
+  width: 49%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#house {
+  width: 42%;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* Sessão 2 do Formulario */
+.session-two {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.family-stacks {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.family-stacks label {
+  padding: 5px;
+}
+
+.learn {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+}
+
+.learn div {
+  padding: 5px;
+  border: purple;
+}
+
+/* Sessão 3 do Formulario */
+.session-three {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.textarea-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.description-and-counter {
+  display: flex;
+  justify-content: space-between;
+}
+
+#textarea {
+  margin: 5px 1px;
+}
+
+.button-content button {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 1px;
+  background-color: purple;
+  color: white;
+}
+
+/* FIM DAS CLASSES DO MAIN */
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+/* classe do Footer */
+footer {
+  width: 100%;
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+
+/* FIM DA CLASSE DO FOOTER */
